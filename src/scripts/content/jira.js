@@ -14,6 +14,8 @@ togglbutton.render('#ghx-detail-issue:not(.toggl)', {observe: true}, function (e
   if (numElem !== null) {
     description = numElem.innerText + " " + description;
   }
+    //description = description.match('^(\\\\w*?-\\\\d*?) ');
+    description = 'Jira2';
 
   link = togglbutton.createTimerLink({
     className: 'jira',
@@ -35,6 +37,8 @@ togglbutton.render('.issue-header-content:not(.toggl)', {observe: true}, functio
   if (numElem !== null) {
     description = numElem.innerText + " " + description;
   }
+    //description = description.match('^(\\\\w*?-\\\\d*?) ');
+    description = 'Jira1';
 
   link = togglbutton.createTimerLink({
     className: 'jira',

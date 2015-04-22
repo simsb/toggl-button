@@ -53,7 +53,7 @@
     "*://*.wunderlist.com/*",
     "*://*.teamwork.com/*",
     "*://*.teamworkpm.net/*",
-    "*://jira.corelogic.co.uk/*"
+    "*://*.corelogic.co.uk/*"
   ],
   "icons": {
     "16": "images/icon-16.png",
@@ -95,7 +95,7 @@
         "*://*.toodledo.com/*",
         "*://*.teamwork.com/*",
         "*://*.teamworkpm.net/*",
-        "*://jira.corelogic.co.uk/*"
+        "*://*.corelogic.co.uk/*"
       ],
       "css": ["styles/style.css"],
       "js": ["scripts/common.js"]
@@ -169,7 +169,7 @@
       "js": ["scripts/content/jira.js"]
     },
     {
-      "matches": ["*://jira.corelogic.co.uk/*"],
+      "matches": ["*://*.corelogic.co.uk/*"],
       "js": ["scripts/content/jira.js"]
     },
     {
